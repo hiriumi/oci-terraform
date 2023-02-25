@@ -1,3 +1,7 @@
+variable "tenancy_ocid" {
+  description = "OCID from your tenancy page"
+  type        = string
+}
 variable "compartment_id" {
   description = "OCID from your tenancy page"
   type        = string
